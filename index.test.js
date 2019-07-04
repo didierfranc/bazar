@@ -1,7 +1,7 @@
 const { encode, decode } = require('./bazar')
 const { compress, decompress } = require('./compress')
 
-const string = 'company:782200:bankAccount:876545'
+const string = 'company:12345'
 
 test('encode/decode', () => {
   const encoded = encode(string)
